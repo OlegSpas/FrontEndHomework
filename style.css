@@ -1,0 +1,36 @@
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.block-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block {
+    height: 100px;
+    width: 200px;
+    margin: 10px;
+    transition: all .2s ease-in;
+}
+
+.first {
+    background-color: brown;
+}
+
+.two {
+    background-color: goldenrod;
+}
+.three {
+    background-color: royalblue;
+}
+
+.changedBlock {
+    opacity: 0;
+}
